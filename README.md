@@ -16,6 +16,7 @@ Flask サーバーと ngrok を使って外部からアクセス可能な API �
 ## 環境構築・使い方（Colab 推奨）
 
 ### 1. Colab で実行する場合
+(Whisper-音声文字起こしAPI.ipynb)
 
 - Google Colab でこのリポジトリのコードをコピー・ペーストまたはクローンしてください。  
 - 「ランタイム」→「ランタイムのタイプを変更」から「ハードウェアアクセラレータ」を **GPU** に切り替えます。  
@@ -36,6 +37,7 @@ Flask サーバーと ngrok を使って外部からアクセス可能な API �
 ---
 
 ### API 呼び出し例（Python）
+(Call_api.ipynb)
 ```
 import requests
 
